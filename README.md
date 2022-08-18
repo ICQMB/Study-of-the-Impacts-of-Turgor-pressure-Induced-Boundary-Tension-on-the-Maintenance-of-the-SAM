@@ -11,14 +11,21 @@ Compile by moving all .cpp and .h files in the root directory of this repository
 Executables can be run via ./program -option1 -option2...
 
 The first six options MUST be ordered as follows:
+
 -option1 - path to output folder for VTK animations with cytoplasm rendered
+
 -option2 - path to output folder for node-scale output data
+
 -option3 - path to output folder for nematic output data
+
 -option4 - path to output folder for VTK animations without cytoplasm rendered
+
 -option5 - path to output folder for cell-scale data
+
 -option6 - path to output folder for tisue-scale data
 
 All subsequent options have the form
+
 -key [value]
 
 All keys are found in main.cpp, but the main key-value pairs used for this paper are...
@@ -26,4 +33,6 @@ All keys are found in main.cpp, but the main key-value pairs used for this paper
 -OOP_flag [1 or 0] // 1 is P3D model; 0 is 2D model
 -BFM [double X] // sets X micronewtons as the magnitude of F_boundary.
 
-This repository includes several script files used to expedite the submission process in a SLURM queue system.
+This model has been coded to work with OMP CPU parallelization.  A sample submision script for the SLURM queueing system has been included under SAMPLE_SUBMISSION_SCRIPT.sh.
+
+This repository includes several C++ scripts that were used to expedite the submission process in a SLURM queue system.
