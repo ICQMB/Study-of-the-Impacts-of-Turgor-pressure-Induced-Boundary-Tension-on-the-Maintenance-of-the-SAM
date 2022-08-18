@@ -31,6 +31,7 @@ All subsequent options have the form
 All keys are found in main.cpp, but the main key-value pairs used for this paper are...
 
 -OOP_flag [1 or 0] // 1 is P3D model; 0 is 2D model
+
 -BFM [double X] // sets X micronewtons as the magnitude of F_boundary.
 
 This model has been coded to work with OMP CPU parallelization.  A sample submision script for the SLURM queueing system has been included under SAMPLE_SUBMISSION_SCRIPT.sh.
