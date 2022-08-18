@@ -35,8 +35,8 @@ bool WUS_LEVEL = false;
 bool UNIFORM_OOP_DIST = false; // Flag -Unif <1 or 0>
 double OOP_PROBABILITY = 0.3; // UNIFORM ONLY - Defaults to 0.3
 double MECH_DIV_PROB = 0.5;
-int DIV_MECHANISM = 1; //./batchGenerator -par -div <int>
-//1 - Errera, 2 - Chem, 3 - Mech, 4 - Merged
+int DIV_MECHANISM = 5; //./batchGenerator -par -div <int>
+//1 - Errera, 2 - Chem, 3 - Mech, 4 - Merged, 5 - Layer-Specific
 double WUS_RAD_CONTRACTION_FACTOR = 1;//./batchGenerator -par -WR <double>
 double CK_RAD_CONTRACTION_FACTOR = 1; //./batchGenerator -par -CKR <double>
 int PRINT_VTKS = true; // ./batchGenerator -par -PRINT <1 or 0>
