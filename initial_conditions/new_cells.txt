@@ -1,0 +1,144 @@
+CellRank:0
+Center:0,0
+Radius:3.75
+Layer:1
+Boundary:0
+Stem:0
+End_Cell
+ 
+CellRank:1
+Center:8,0
+Radius:3.75
+Layer:1
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:2
+Center:16,0
+Radius:3.75
+Layer:1
+Boundary:1
+Stem: 0
+End_Cell
+ 
+CellRank:3
+Center:-8,0
+Radius:3.75
+Layer:1
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:4
+Center:-16,0
+Radius:3.75
+Layer:1
+Boundary:1
+Stem: 0
+End_Cell
+ 
+CellRank:5
+Center:0,-8
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:6
+Center:8,-8
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:7
+Center:16,-8
+Radius:3.75
+Layer:3
+Boundary:1
+Stem:0
+End_Cell
+ 
+CellRank:8
+Center:-8,-8
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:9
+Center:-16,-8
+Radius:3.75
+Layer:3
+Boundary:1
+Stem: 0
+End_Cell
+ 
+CellRank:10
+Center:0,-16
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:11
+Center:8,-16
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:12
+Center:16,-16
+Radius:3.75
+Layer:3
+Boundary:1
+Stem: 0
+End_Cell
+ 
+CellRank:13
+Center:-8,-16
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 0
+End_Cell
+ 
+CellRank:14
+Center:-16,-16
+Radius:3.75
+Layer:3
+Boundary:1
+Stem: 0
+End_Cell
+ 
+CellRank:15
+Center:0,-24
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 1
+End_Cell
+ 
+CellRank:16
+Center:8,-24
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 1
+End_Cell
+ 
+CellRank:17
+Center:-8,-24
+Radius:3.75
+Layer:3
+Boundary:0
+Stem: 1
+End_Cell
+

@@ -1,0 +1,2 @@
+-p,batch,-hours,72,-cores,12,-test,GS35,-bigdata
+-div,-WR,-CKR

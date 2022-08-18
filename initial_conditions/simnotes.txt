@@ -1,0 +1,14 @@
+NDEL
+For these I tried to make it so that node delete was only checked for cells that had
+a recent_div marker on them (As in mother daughter recent div variable,
+around for 2 VTK frames)
+Result:  This was a disaster. Walls were less stable than ever, eventually ending in a NAN using 
+small_cluster initial conditions.
+
+NDEL2
+In addition to the changes for NDEL*, these had a flag built into Cell::delete_Wall_Node_Check()
+so that Tissue::delete_Wall() would run Tissue::update_Adhesion(); whenever nodes were deleted.
+(This is probably a bad idea. Don't push this, but just see what happens.)
+Result:  These results were ruined by the original NDEL changes and discarded. Retrying after
+rolling back the NDEL change.
+*Result (Without NDEL change): 

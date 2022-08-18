@@ -1,0 +1,26 @@
+Simulation 1:
+Input WUS,CK, Ratio of iso/anisotrpic growth by L1,L2, depth of deeper layers
+Model assumptions:
+Growth rate = f(WUS)
+Growth direction loaded from eric's data
+Division plane as function of WUS/CK concentration 
+(Don't expect this to work)
+
+Simulation 2 (Mech. hypothesis)
+Input WUS,CK, Ratio of iso/anisotrpic growth by L1,L2, depth of deeper layers
+Model assumptions:
+Growth rate = f(WUS)
+Growth direction loaded from eric's data
+Division plane as function of tensile stress
+(Want this to work)
+
+Simulation 3 (Chem growth vs Mech Division)
+Input: WUS distribution, CK distribution
+Model assumptions:
+Growth rate function of WUS
+Growth direction based on WUS/CK concentration
+Division plane function of tensile stress.
+
+
+Uncertainty quantification (???)
+Help with simulations (???)
